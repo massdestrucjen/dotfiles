@@ -1,0 +1,62 @@
+#!/usr/bin/env bash
+
+# Check for Homebrew
+if test ! $(which brew)
+then
+  echo "  x Homebrew not found. Please install it:"
+  echo "    https://github.com/mxcl/homebrew/wiki/installation"
+  exit
+fi
+
+# Make sure we’re using the latest Homebrew
+brew update
+
+# Upgrade any already-installed formulae
+brew upgrade
+
+# Install GNU core utilities (those that come with OS X are outdated)
+brew install coreutils
+echo "Don’t forget to add $(brew --prefix coreutils)/libexec/gnubin to \$PATH."
+
+# Install wget with IRI support
+brew install wget --enable-iri
+
+# Install more recent versions of some OS X tools
+brew tap homebrew/dupes
+brew install homebrew/dupes/grep
+brew install homebrew/dupes/less
+
+# Install completion (dotfiles completions need this)
+brew install bash-completion
+
+# Install latest version of bash shell
+brew install bash
+echo "Don't forget to change shell to $(brew --prefix bash)/bin/bash."
+
+# Install everything else
+brew install git
+brew install htop
+brew install node
+brew install ssh-copy-id
+brew install gist
+brew install nmap
+brew install resty
+brew install tree
+brew install mtr
+brew install z
+brew install vim
+brew install apple-gcc42
+brew install gcc
+brew install imagemagick
+brew install irssi
+brew install legit
+brew install libxslt
+brew install rbenv
+brew install memcached
+brew install rbenv
+brew install rbenv-gemset
+brew install redis
+brew install ruby-build
+
+# Remove outdated versions from the cellar
+brew cleanup
