@@ -6,27 +6,37 @@
 [hub]
         protocol = https
 [user]
-        name = Zach Holman
-        email = zach@zachholman.com
-        helper = /opt/boxen/bin/boxen-git-credential
+        name = Adam Saegebarth
+        email = adams@synapse.com
+        # helper = /opt/boxen/bin/boxen-git-credential
         # FIXME: You'll want the `helper` line below; delete the one above.
-        # helper = osxkeychain
+        helper = osxkeychain
 [alias]
         co = checkout
         promote = !$ZSH/bin/git-promote
         wtf     = !$ZSH/bin/git-wtf
         rank-contributers = !$ZSH/bin/git-rank-contributers
         count   = !git shortlog -sn
+        s = status
+        d = !git diff | gitx
+        l = log --graph --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%Creset'
+        switch = !legit switch \"$@\"
+        branches = !legit branches
+        sprout = !legit sprout \"$@\"
+        unpublish = !legit unpublish \"$@\"
+        harvest = !legit harvest \"$@\"
+        sync = !legit sync \"$@\"
+        publish = !legit publish \"$@\"
+        graft = !legit graft \"$@\"
+        vis = !gitx --all &
 [color]
         diff = auto
         status = auto
         branch = auto
         ui = true
 [core]
-        excludesfile = /opt/boxen/config/git/gitignore
-        # FIXME: You'll want the `excludesfile` line below; delete the one above.
-        # excludesfile = ~/.gitignore
-        editor = vim
+        excludesfile = ~/.gitignore
+        editor = subl
 [apply]
         whitespace = nowarn
 [mergetool]
@@ -35,7 +45,3 @@
         prompt = false
 [help]
         autocorrect = 1
-
-# FIXME: You can nuke all of this on your machine.
-[credential]
-        helper = /opt/boxen/bin/boxen-git-credential
