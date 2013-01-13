@@ -1,9 +1,6 @@
 {
+	"color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
 	"font_size": 12.0,
-	"ignored_packages":
-	[
-		"RubyTest",
-		"SublimeLinter"
-	],
-	"theme": "Soda Light.sublime-theme"
+	"theme": "Soda Light.sublime-theme",
+	"tab_size": 4
 }

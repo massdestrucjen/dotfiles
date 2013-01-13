@@ -10,3 +10,20 @@ ln -s "$ZSH/sublime2/User" "$sublime_dir"
 # Grab the Soda theme
 cd "$sublime_dir"
 git clone https://github.com/buymeasoda/soda-theme/ "Theme - Soda"
+# git clone https://github.com/SublimeLinter/SublimeLinter.git
+# git clone https://github.com/titoBouzout/SideBarEnhancements.git
+# git clone https://github.com/wbond/sublime_alignment.git Alignment
+# git clone https://github.com/maltize/sublime-text-2-ruby-tests.git RubyTest
+# git clone git://github.com/Kronuz/SublimeCodeIntel.git
+# git clone https://github.com/JeffChan/sublime-text-puppet.git Puppet
+# git clone git://github.com/jlegewie/SublimePeek.git
+# git clone https://github.com/Xavura/CoffeeScript-Sublime-Plugin.git CoffeeScript
+# git clone https://github.com/mrmartineau/jQuery.git JQuery
+# git clone git://github.com/netpro2k/SublimeBlockCursor.git
+# git clone https://github.com/jisaacks/GitGutter.git
+# git clone git://github.com/SublimeText/RSpec.git
+# git clone https://github.com/n00ge/sublime-text-haml-sass.git
+# git clone https://github.com/SublimeText/SideBarGit.git
+# git clone git://github.com/kemayo/sublime-text-2-git.git Git
+# git clone http://github.com/noklesta/SublimeRailsNav.git
+# git clone git://github.com/CraigWilliams/BeautifyRuby.git

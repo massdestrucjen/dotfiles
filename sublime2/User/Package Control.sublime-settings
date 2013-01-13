@@ -2,7 +2,7 @@
 	"installed_packages":
 	[
 		"AAAPackageDev",
-		"Alignment",
+		"AlignTab",
 		"AngularJS",
 		"Auto Encoding for Ruby",
 		"BeautifyRuby",
@@ -18,7 +18,7 @@
 		"SCSS",
 		"SideBarEnhancements",
 		"Simple Rails Navigator",
-		"SublimeBlockCursor",
+		"Solarized Color Scheme",
 		"SublimeCodeIntel",
 		"SublimePeek",
 		"TomDoc+"
