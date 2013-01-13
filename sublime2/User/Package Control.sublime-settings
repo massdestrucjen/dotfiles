@@ -1,0 +1,26 @@
+{
+	"installed_packages":
+	[
+		"AAAPackageDev",
+		"Alignment",
+		"AngularJS",
+		"Auto Encoding for Ruby",
+		"BeautifyRuby",
+		"CoffeeScript",
+		"ColorPicker",
+		"EditorConfig",
+		"Git",
+		"jQuery",
+		"LESS",
+		"Package Control",
+		"RSpec",
+		"RubyTest",
+		"SCSS",
+		"SideBarEnhancements",
+		"Simple Rails Navigator",
+		"SublimeBlockCursor",
+		"SublimeCodeIntel",
+		"SublimePeek",
+		"TomDoc+"
+	]
+}
